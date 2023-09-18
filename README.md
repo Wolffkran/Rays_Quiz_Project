@@ -20,3 +20,11 @@ This was effective in helping me learn more about doms, functions and eventliste
 ## License
 
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+=======
+
+    ![Quiz Project image](assets/images/quizproject.png)
+   
+
+## License
+
+© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
