@@ -1,0 +1,136 @@
+body {
+  margin: 20px;
+  padding: 0;
+  font-family: 'Raleway';
+  background: rgb(46, 45, 45)
+}
+
+#quiz-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: teal;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+#reset-scoreboard {
+  display: block; 
+  margin: 0 auto; 
+  text-align: center; 
+  padding: 10px 20px; 
+  background-color: #3f3f3f; 
+  color: #0fe70f; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+}
+
+#go-back-button {
+  display: block; 
+  margin: 0 auto; 
+  background-color: rgb(68, 67, 67);
+  color: ivory;
+  padding: 10px;
+}
+
+#reset-scoreboard:hover {
+  background-color: #0a1e41; 
+}
+
+#high-score-container {
+  text-align: center;
+  padding: 20px;
+  color: #0fe70f;
+
+}
+
+#start-button {
+  background-color: darkblue;
+  color: ivory;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#question-container {
+  text-align: left;
+  color: #000000;
+  padding: 20px;
+  background-color: teal;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+.option {
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.option:hover {
+  background-color: #0a1e41;
+}
+
+#timer {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+#game-over-container {
+  display: none;
+  margin-top: 20px;
+  padding: 20px;
+  color: ivory;
+  background-color:#2272FF;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #2272FF(0, 0, 0, 0.1);
+  text-align: center;
+  background: rgb(46, 45, 45)
+}
+
+#final-score {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#initials {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+#submit-score {
+  background-color: teal;
+  color: ivory;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+#submit-score:hover {
+  background-color: #0a1e41;
+}
