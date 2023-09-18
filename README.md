@@ -15,9 +15,9 @@ This was effective in helping me learn more about doms, functions and eventliste
 
 ## Usage
 
-    ```md
+
     ![alt text](assets/images/quizproject.png)
-    ```
+   
 
 ## License
 
