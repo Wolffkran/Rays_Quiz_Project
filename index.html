@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <h1>JavaScript Quiz</h1>
+        <button id="start-button">Start Quiz</button>
+        <div id="question-container">
+        </div>
+        <div id="timer">Time: <span id="time-left">60</span> seconds</div>
+        <div id="result-container">
+            <p id="result-text"></p>
+        </div>    
+    </div>  
+    <div id="game-over-container">
+        <h2>Game Over!</h2>
+        <p>Your score: <span id="final-score"></span></p>
+        <input type="text" id="initials" maxlength="2" placeholder="Enter your initials">
+        <button id="submit-score">Submit</button>
+    </div>
+    <button id="go-back-button">Go Back to Main Page</button>
+    <div id="high-score-container">
+        <h2>High Scores</h2>
+        <ol id="high-score-list">
+        </ol>
+    </div>
+    <button id="reset-scoreboard">Reset Scoreboard</button>
+    <script src="script.js"></script>
+</body>
+</html>
